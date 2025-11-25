@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pythonlibs/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Flask
+instance/
+.webassets-cache
+
+# Logs only (mindmap.json and uploads/ are kept for backup)
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables (keep SESSION_SECRET secret)
+.env
+
+# Replit
+.replit
+.config/
+.cache/
+.upm/
+.pythonlibs/
+poetry.lock
+pyproject.toml
+uv.lock
